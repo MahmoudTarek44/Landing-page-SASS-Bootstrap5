@@ -1,0 +1,24 @@
+// fonts import >>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+// font family >>
+$mainFont: "Poppins", sans-serif;
+
+// font sizes >>
+$baseFontSize: 1rem;
+$medFontSize: $baseFontSize * 1.5;
+$largFontSize: $baseFontSize * 2;
+$xlargFontSize: $baseFontSize * 2.9;
+$xxlargeFontSize: $baseFontSize * 4;
+
+// colors palette >>
+
+$mainColor: #f90;
+$mainHover: #d98200;
+$headLines: #2f281e;
+$textColor: #544837;
+$navLinks: #212832;
+$uniqueColorB: #bcd0e5;
+$uniqueColorN: #173a56;
+$uniqueColorP: #567592;
+$trans: transparent;

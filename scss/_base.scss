@@ -1,0 +1,99 @@
+@import "variables";
+@import "mixins";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-size: $baseFontSize;
+	font-family: $mainFont;
+}
+li {
+	list-style: none;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+h1 {
+	font-size: $xlargFontSize;
+	line-height: 1.5;
+	font-weight: 700;
+}
+h3 {
+	font-size: $baseFontSize * 1.265;
+	font-weight: 600;
+	line-height: 1.2;
+}
+i {
+	color: $mainColor;
+	font-size: $baseFontSize * 1.5;
+	padding-right: $baseFontSize * 0.2;
+}
+.container {
+	max-width: $baseFontSize * 71.5;
+}
+.navbar {
+	background-color: white;
+	padding: $baseFontSize;
+}
+.banner {
+	margin-top: $baseFontSize * 7.5;
+	padding-bottom: $baseFontSize * 9;
+}
+.watch {
+	color: $mainColor;
+	font-size: $baseFontSize;
+	font-weight: 500;
+	&:hover {
+		color: $mainColor;
+	}
+}
+.superpowers {
+	background-image: url(../Images/shape.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: $baseFontSize * 4 0;
+}
+.iconFigure {
+	width: $baseFontSize * 5;
+}
+.footer {
+	padding: $baseFontSize * 5;
+}
+.footer-input {
+	border: 1px solid #e0e0e0;
+	border-radius: $baseFontSize * 0.25;
+}
+// General templates using mixins >>
+
+.navbar-links {
+	@include navigation($baseFontSize * 0.88, 400);
+}
+.idButton {
+	@include button();
+}
+.uniqueButton {
+	@include button($baseFontSize * 0.688, $trans, $uniqueColorN);
+	&:hover {
+		background-color: $trans;
+		color: $uniqueColorN;
+	}
+}
+.mainPara {
+	@include para(400, $baseFontSize * 1.2);
+}
+.textPara {
+	@include para(500, $baseFontSize);
+}
+.footer-links {
+	@include navigation($baseFontSize, 400);
+}
+.footerPara {
+	@include para(400, $baseFontSize * 1.2656);
+}
+.footerButton {
+	@include button($baseFontSize * 0.35);
+}

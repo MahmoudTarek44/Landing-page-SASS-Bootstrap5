@@ -1,0 +1,36 @@
+@mixin button(
+	$paddingY: $baseFontSize * 0.688,
+	$bgColor: $mainColor,
+	$color: white,
+	$borderColor: $mainColor
+) {
+	background-color: $bgColor;
+	padding: $paddingY $baseFontSize * 1.563;
+	font-size: $baseFontSize;
+	font-weight: 600;
+	line-height: 1.5;
+	color: $color;
+	border-radius: $baseFontSize * 0.25;
+	border: $baseFontSize * 0.0625 solid $uniqueColorB;
+	text-decoration: none;
+	&:hover {
+		background-color: $mainHover;
+		color: white;
+	}
+}
+@mixin navigation($fontsize, $fontweight) {
+	font-size: $fontsize;
+	font-weight: $fontweight;
+	color: $navLinks;
+	line-height: 1.5;
+	text-decoration: none;
+	cursor: pointer;
+	&:hover {
+		color: $mainColor;
+	}
+}
+@mixin para($fontweight: 400, $fontsize: $baseFontSize) {
+	font-weight: $fontweight;
+	font-size: $fontsize;
+	line-height: 1.5;
+}

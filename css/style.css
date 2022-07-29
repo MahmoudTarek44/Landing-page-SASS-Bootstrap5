@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 2.9rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.265rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+i {
+  color: #f90;
+  font-size: 1.5rem;
+  padding-right: 0.2rem;
+}
+
+.container {
+  max-width: 71.5rem;
+}
+
+.navbar {
+  background-color: white;
+  padding: 1rem;
+}
+
+.banner {
+  margin-top: 7.5rem;
+  padding-bottom: 9rem;
+}
+
+.watch {
+  color: #f90;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.watch:hover {
+  color: #f90;
+}
+
+.superpowers {
+  background-image: url(../Images/shape.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 4rem 0;
+}
+
+.iconFigure {
+  width: 5rem;
+}
+
+.footer {
+  padding: 5rem;
+}
+
+.footer-input {
+  border: 1px solid #e0e0e0;
+  border-radius: 0.25rem;
+}
+
+.navbar-links {
+  font-size: 0.88rem;
+  font-weight: 400;
+  color: #212832;
+  line-height: 1.5;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navbar-links:hover {
+  color: #f90;
+}
+
+.idButton {
+  background-color: #f90;
+  padding: 0.688rem 1.563rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: white;
+  border-radius: 0.25rem;
+  border: 0.0625rem solid #bcd0e5;
+  text-decoration: none;
+}
+.idButton:hover {
+  background-color: #d98200;
+  color: white;
+}
+
+.uniqueButton {
+  background-color: transparent;
+  padding: 0.688rem 1.563rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #173a56;
+  border-radius: 0.25rem;
+  border: 0.0625rem solid #bcd0e5;
+  text-decoration: none;
+}
+.uniqueButton:hover {
+  background-color: #d98200;
+  color: white;
+}
+.uniqueButton:hover {
+  background-color: transparent;
+  color: #173a56;
+}
+
+.mainPara {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.textPara {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.footer-links {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #212832;
+  line-height: 1.5;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer-links:hover {
+  color: #f90;
+}
+
+.footerPara {
+  font-weight: 400;
+  font-size: 1.2656rem;
+  line-height: 1.5;
+}
+
+.footerButton {
+  background-color: #f90;
+  padding: 0.35rem 1.563rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: white;
+  border-radius: 0.25rem;
+  border: 0.0625rem solid #bcd0e5;
+  text-decoration: none;
+}
+.footerButton:hover {
+  background-color: #d98200;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
